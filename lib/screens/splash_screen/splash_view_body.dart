@@ -1,7 +1,9 @@
+import 'package:bookly_app/screens/home_screen/home_screen.dart';
+import 'package:bookly_app/shared/constants.dart';
 import 'package:bookly_app/shared/slidingText.dart';
 import 'package:bookly_app/shared/utils.dart';
 import 'package:flutter/material.dart';
-
+import 'package:get/get.dart';
 class SplashView extends StatefulWidget {
   const SplashView({Key? key}) : super(key: key);
 
@@ -16,8 +18,17 @@ class _SplashViewState extends State<SplashView> with SingleTickerProviderStateM
   @override
   void initState() {
     initSlidingAnimation();
+
+    navigateToHome();
+  }
+
+  void navigateToHome() {
     //wait al time da w b3d kda nfz al mtloob
-    Future.delayed(duration)
+    Future.delayed(const Duration(seconds: 2),(){
+      //b3d al 2 sec dol nfzli kza
+      Get.to(()=>
+          const HomeScreen(),duration: kTranstionDuration);
+    });
   }
 
   void initSlidingAnimation() {
