@@ -1,5 +1,5 @@
-import 'package:bookly_app/shared/app_router.dart';
-import 'package:bookly_app/shared/utils.dart';
+import 'package:bookly_app/shared/utils/app_router.dart';
+import 'package:bookly_app/shared/utils/utils.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

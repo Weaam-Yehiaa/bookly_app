@@ -2,8 +2,8 @@ import 'package:bookly_app/screens/search_screen/search_screen.dart';
 import 'package:bookly_app/screens/splash_screen/splash_screen.dart';
 import 'package:go_router/go_router.dart';
 
-import '../screens/book_details_screen/book_details_screen.dart';
-import '../screens/home_screen/home_screen.dart';
+import '../../screens/book_details_screen/book_details_screen.dart';
+import '../../screens/home_screen/home_screen.dart';
 
 abstract class AppRouter{
   static const kHomeScreen='/HomeScreen';

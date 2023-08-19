@@ -1,5 +1,5 @@
 import 'package:bookly_app/screens/splash_screen/splash_screen.dart';
-import 'package:bookly_app/shared/app_router.dart';
+import 'package:bookly_app/shared/utils/app_router.dart';
 import 'package:bookly_app/shared/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

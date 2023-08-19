@@ -1,4 +1,4 @@
-import 'package:bookly_app/shared/styles.dart';
+import 'package:bookly_app/shared/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {

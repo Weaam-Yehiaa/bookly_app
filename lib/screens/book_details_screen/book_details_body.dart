@@ -2,7 +2,7 @@ import 'package:bookly_app/screens/book_details_screen/similar_books_listview.da
 import 'package:bookly_app/screens/home_screen/best_seller_listView.dart';
 import 'package:bookly_app/screens/home_screen/featured_books_listView.dart';
 import 'package:bookly_app/shared/components.dart';
-import 'package:bookly_app/shared/styles.dart';
+import 'package:bookly_app/shared/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/constants.dart';

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../shared/app_router.dart';
-import '../../shared/styles.dart';
+import '../../shared/utils/app_router.dart';
+import '../../shared/utils/styles.dart';
 
 class BestSellerListView extends StatelessWidget {
   const BestSellerListView({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:bookly_app/screens/home_screen/home_screen.dart';
-import 'package:bookly_app/shared/app_router.dart';
+import 'package:bookly_app/shared/utils/app_router.dart';
 import 'package:bookly_app/shared/constants.dart';
 import 'package:bookly_app/shared/slidingText.dart';
-import 'package:bookly_app/shared/utils.dart';
+import 'package:bookly_app/shared/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 class SplashView extends StatefulWidget {
